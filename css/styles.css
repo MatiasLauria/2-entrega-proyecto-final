@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.logo {
+    width: 150px;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* sections */
+
+
+.products h2{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.btn2 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.card:hover{
+    box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
+}
+
+.products h6 {
+    
+    font-weight: bold;
+}
+.products p{
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* footer */
+
+.news {
+    background-color: purple;
+    color: white;
+}
+
+.btn3 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: bold;
+    color:purple;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 20px;
+    font-weight: bold;
+    background: purple;
+    color: white;
+}
+
+.news p{
+    margin: 0;
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+/* carousel */
+
+.carousel img {
+
+    max-height: 300px;
+
+}
+
+.carousel h5{
+
+    font-weight: bold;
+    color:black;
+    font-size: 2rem;
+}
+
+.carousel p{
+
+    font-weight: bold;
+    color:black;
+}
+
